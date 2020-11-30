@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #a9cce3;
+    color:  #1a5276 ;
+}
+a {
+    color:  #1a5276 ;
+    text-decoration: none;
+}

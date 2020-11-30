@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midelar</title>
+    <!--Font awsome cdm-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+
+    <!--Cargamos los archivos estaticos-->
+    {% load static %}
+
+    <link rel="stylesheet" href="{% static 'core/css/style.css' %}">
+</head>
+<body>
+    <header class="container">
+        <nav class="nav-main">
+            <figure>
+                <img src="{% static 'core/media/logo.jpg' %}" alt="logo de la página">
+            </figure>
+            <ul class="nav-menu">
+                <li><a href="">Inicio</a></li>
+                <li><a href="">Arduino</a></li>
+                <li><a href="">Circuitos Digitales</a></li>
+                <li><a href="">Raspberry</a></li>
+                <li><a href="">Python</a></li>
+                <li><a href="">Tienda</a></li>
+            </ul>
+            <ul class="nav-menu-rigth">
+                <li>
+                    <a href="">
+                        <i class="fast fa-search"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+    <p>prueba</p>
+    
+</body>
+</html>
